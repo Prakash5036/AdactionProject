@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.567484">
+<testcase classname="Book the Hotel using POM" name="Login to the Adactin website" time="23.567484">
+<system-out><![CDATA[Given Lauch the browser.....................................................passed
+When Enter the "Prakash21031990" and "6IC187"...............................passed
+And Click the login.........................................................passed
+And Book the hotels "London","Hotel Sunshine","Double","2 - Two","3 - Three".passed
+And Click the search button.................................................passed
+Then Check the booking status sucessfully or not............................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login to the Adactin website",
+        "description": "",
+        "id": "book-the-hotel-using-pom;login-to-the-adactin-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13839119600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Lauch the browser",
+            "match": {
+              "location": "StepDefinition.lauch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 328230800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the \"Prakash21031990\" and \"6IC187\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prakash21031990\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"6IC187\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2514190700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the login",
+            "match": {
+              "location": "StepDefinition.click_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 738494300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Book the hotels \"London\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDefinition.book_the_hotels(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 800946800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the search button",
+            "match": {
+              "location": "StepDefinition.click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5342203700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check the booking status sucessfully or not",
+            "match": {
+              "location": "StepDefinition.check_the_booking_status_sucessfully_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book the Hotel using POM",
+    "description": "",
+    "id": "book-the-hotel-using-pom",
+    "keyword": "Feature",
+    "uri": "C:/Users/Admin/eclipse-workspace/AdactinLogin/src/test/resources/Adactin.feature",
+    "tags": []
+  }
+]
